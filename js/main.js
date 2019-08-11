@@ -16,10 +16,6 @@ window.onload = function() {
   }
   navbarFixed();
 
-  skrollr.init({
-    forceHeight: false
-  });
-
   if ($(".testimonial").length) {
     $(".testimonial").owlCarousel({
       loop: true,
