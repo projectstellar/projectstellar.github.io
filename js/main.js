@@ -35,7 +35,7 @@ window.onload = function() {
   }
   if (!localStorage.owners) {
     $.ajax(
-      "https://api.github.com/orgs/holostellar/members?role=all&filter=all"
+      "https://api.github.com/orgs/projectstellar/members?role=all&filter=all"
     )
       .done(function(data) {
         const owners = [];
